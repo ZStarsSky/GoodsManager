@@ -1,0 +1,131 @@
+.login{
+    width: 100vm;
+    height: 100vh;
+    // background: white;
+
+    background: url("../picture/bg1.jpg") no-repeat;
+    width:100%;			//大小设置为100%
+    height:100%;			//大小设置为100%
+    position:fixed;
+    background-position-y:50px;
+    background-size:100% 100%;
+    
+
+    // background-color: rgba(255, 255, 255, 0.9);
+
+    
+
+    .nav-top{
+        height: 50px;
+        border-bottom: 1px solid gray;
+        
+        display: flex;
+
+        // 要有flex，justify-content才会生效
+        // space-between将盒子以两边为边界，盒子之间有间距
+        justify-content:space-between;
+        padding: 0 10px;
+
+        // 将元素在盒子的上下居中
+        align-items: center;
+
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .nav-left{
+        display: flex;
+        align-items: center;
+        span{
+            font-size: 16px;
+            font-weight: 600;
+            color: rgb(121, 110, 115);
+        }
+    }
+    .nav-right{
+        color: #0c34ba;
+        font-weight: bold;
+    }
+
+    .logo{
+        text-align: center;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 50px;
+        }
+    }
+
+    .wj{
+        text-align: right;
+        padding-right: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    // 输入框
+    .inp {
+        height: 380px;
+        width: 364px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-top: 209px;
+        padding-top: 10px;
+        margin-left: 5px;
+        border-radius: 10px;
+        
+
+    }
+    // 输入框的字
+    .van-field__label{
+        color: #131927;
+        font-size: 14px;
+    }
+
+    
+   
+    
+    
+    // 登陆,注册按钮
+    .loginbtn{
+        height: 45px;
+       margin: 16px; 
+       margin-top:60px;
+    //    font-size: 28px;
+        // margin-top: 5px;
+    }
+    .registerbtn{
+        height: 45px;
+        margin: 16px;
+         margin-top:12px;
+        //  font-size: 18px;
+        // margin-top: 5px;
+    }
+
+    .nameIn , .passwdIn{
+        height: 52px;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.7);
+       
+        /* margin-top: 10px; */
+        margin: 23px 8px;
+        /* padding-top: 5px; */
+        
+
+    }
+
+    .van-button--info {
+        color: #fff;
+        background-color: #3dd2c7;
+        border: 1px solid #3dd2c7;
+        }
+
+    
+
+
+
+
+
+
+}
